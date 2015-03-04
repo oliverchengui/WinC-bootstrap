@@ -1,0 +1,79 @@
+@charset "utf-8";
+@font-face {
+	font-family: 'Entypo';
+	src: url('Entypo-webfont.eot');
+	src: url('Entypo-webfont.eot?#iefix') format('embedded-opentype'),
+		url('Entypo-webfont.woff') format('woff'),
+		url('Entypo-webfont.ttf') format('truetype'),
+		url('Entypo-webfont.svg') format('svg');
+	font-weight: normal;
+  	font-style: normal;
+}
+
+.My_Top_Container {
+
+}
+.main_left {
+	background-image: url(../Images/icons/it.png);
+	background-repeat: no-repeat;
+	text-indent: 50px;
+	background-position: 25px;
+	
+}
+
+.caption {
+	text-align:center;	
+	
+	
+}
+
+#sub_header {
+	text-align:center;		
+	
+	
+}
+
+.direction {
+	display:block !important;
+	text-align:center;
+	
+}
+
+.images {
+	display:inline-block !important;;	
+	
+}
+
+.imgcontainer {
+	text-align:center;
+	
+}
+
+#orglist li {
+	list-style-type:none;
+	
+}
+#orglist li::before {
+	color: #FB000D;
+	content: '6';
+	font-family: Entypo;
+	font-size: 40px;
+	padding-right: 30px;
+	
+}
+
+#orglist li:hover::before {
+	
+	color: #FF6F00;
+}
+
+
+#orglist {
+	padding-left: 0;	
+	
+}
+
+
+
+
+

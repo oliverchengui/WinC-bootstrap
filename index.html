@@ -1,0 +1,202 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Woman in Computing</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+<link href="my_style/index_style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="navbar-header">
+                        	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mytopnav">
+                            	<span class="sr-only">Toggle Navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+							<a class="navbar-brand main_left" >Woman In Computing</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                    	<div class="collapse navbar-collapse" id="mytopnav">
+                    	
+                            <ul class="nav navbar-nav" >
+                                <li role="presentation"><a id="navfw">Famous Woman</a></li>
+                                <li role="presentation"><a id="navorg">Organizations</a></li>
+                                <li role="presentation"><a id= "navff">Fun Facts</a></li>                                 
+                            </ul>
+                            
+                       	</div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+  
+            
+    <!--Famous Woman-->
+    <div class="container">
+    	<div class="row ">
+        	<div class="col-lg-1">
+            	<span class="glyphicon glyphicon-chevron-left direction" id="previous">
+                </span>
+            </div>
+            <div class="col-lg-10" id="sub_header">
+            	<p id="topic">Famous Women</p>
+            </div>
+            <div class="col-lg-1">
+            	<span class="glyphicon glyphicon-chevron-right direction" id = "next"></span>
+            </div>
+        </div>
+        
+        <div id="famous_women" class="carousel slide show" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#famous_women" data-slide-to="0" class="active"></li>
+            <li data-target="#famous_women" data-slide-to="1"></li>
+            <li data-target="#famous_women" data-slide-to="2"></li>
+            <li data-target="#famous_women" data-slide-to="3"></li>
+            <li data-target="#famous_women" data-slide-to="4"></li>
+            <li data-target="#famous_women" data-slide-to="5"></li>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item imgcontainer active">
+              <img src="Images/ada_lovelace.jpg" class="images" width="406" height="406" alt="Ada Lovelace"/> 
+              <div class="carousel-caption">
+                <h3>Ada Lovelace<br />(1815–1852)</h3>
+                <h5>An analyst of Charles Babbage's analytical engine and is often described as the "first computer programmer."</h5>
+              </div>
+            </div>
+            <div class="item imgcontainer">
+              <img src="Images/grace_hopper.jpg" class="images" width="406" height="406" alt="Grace Hopper"/> 
+              <div class="carousel-caption">
+              <h3>Grace Hopper<br />(1906–1992)</h3>
+              <h5>A United States Navy officer and the first programmer of the Harvard Mark I, known as the "Mother of COBOL". She developed the first ever compiler for an electronic computer, known as A-0.</h5>
+                ...
+              </div>
+            </div>
+            <div class="item imgcontainer">
+              <img src="Images/frances_allen.jpg" class="images" width="406" height="406" alt="Frances Allen"/>
+              <div class="carousel-caption">
+               <h3>Frances Allen<br />(1932–)</h3>
+               <h5>The first female IBM Fellow in 1989. In 2006 she became the first female recipient of the ACM's Turing Award.</h5>
+              </div>
+            </div>
+            <div class="item imgcontainer">
+              <img src="Images/barbara_liskov.png" class="images" width="406" height="406" alt="Barbara Liskov"/> 
+              <div class="carousel-caption">
+              <h3>Barbara Liskov<br />(1939–)</h3>
+              <h5>Developed the Liskov substitution principle. Liskov was also the winner of the Turing Prize in 2008.</h5>
+              </div>
+            </div>
+            <div class="item imgcontainer">
+              <img src="Images/anita_borg.jpg" class="images" width="406" height="406" alt="Antia Borg"/>
+              <div class="carousel-caption">
+                <h3>Anita Borg<br />(1949–2003)</h3>
+                <h5>The founding director of the Institute for Women and Technology (IWT)</h5>
+              </div>
+            </div>
+            <div class="item imgcontainer">
+              <img src="Images/maria_klawe.jpg" class="images" width="406" height="406" alt="Maria Klawe"/> 
+              <div class="carousel-caption">
+               <h3>Maria Klawe<br />(1951–)</h3>
+               <h5>The first woman to become President of Harvey Mudd College since its founding in 1955 and was ACM president from 2002 until 2004.</h5>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Controls -->
+          <a class="left carousel-control" href="#famous_women" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#famous_women" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+    	</div>
+        
+        <!--Organzations-->
+        <div class="container hide" id="org">
+        	<div class="row">
+            	<p>These are some awesome organizations that help women in computing. This is a brief list and there are many more out there.</p>
+            </div>
+            <div class="row">
+            	<div class="col-lg-6">
+                    <ul id="orglist">
+                        <li>National Center for Women & Information Technology </li>
+                        <li>Anita Borg Institute for Women and Technology</li>
+                        <li>The Ada Initiative</li>
+                        <li>Girl Develop It</li>
+                        <li>Black Girls Code</li>
+                        <li>Rails Girls</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-6">
+                	<img  width="146" height="135" src="Images/logos/ncwit.png" id="orgimg" /> 
+                </div>
+            </div>
+        </div>  
+        <div class = "container hide" id= "fun_facts">
+        	<ul>
+            	<li>Every year the Anita Borg Institute holds the Grace Hopper Celebration of Women in Computing conference to bring the research and career interests of women in computing to the forefront</li>
+                <li>25% of the computing workforce were women in 2011 reference</li>
+                <li>The DevChix google group has over 1000 members.</li>
+                <li>Girl Develop It has chapters in eleven cities.</li>
+                <li>Women earned 18% of the Computer and Information Sciences undergraduate degrees in 2010. reference</li>
+                <li>The U.S. Bureau of Labor Statistics projects that by 2018, there will be a total of nearly 1.4 million computing-related jobs added in the U.S., an increase of 22% from 2008. reference</li>
+                <li>The median age of women in computing and mathematical occupations is 42. reference</li>
+                <li>Of the 20 occupations with the highest median earnings for women, 5 are computing occupations: computer software engineers, computer and information systems managers, computer programmers, computer scientists and systems analysts, and network systems and data communications analysts. reference</li>
+            </ul>
+        
+        
+        
+        
+        
+        </div>
+       
+        
+        
+    </div>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+	<!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="javascript/linkjs.js"></script>
+    
+
+
+</body>
+
+
+
+
+</html>

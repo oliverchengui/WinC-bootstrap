@@ -1,0 +1,73 @@
+        <div class="container-fluid hidden" id="famous_woman">
+        	<div class="row">
+            	<div class="col-lg-4" >
+                	<div class="thumbnail">
+                  		<div class ="caption">
+                    		<h3>Ada Lovelace<br />(1815¡V1852)</h3>
+                   		 </div>
+               	    	<img src="Images/ada_lovelace.jpg" width="406" height="406" alt="Ada Lovelace"/> 
+                        <div class="caption">
+                        	<h5>An analyst of Charles Babbage's analytical engine and is often described as the "first computer 	  	 programmer."</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4" >
+                	<div class="thumbnail">
+                  		<div class ="caption">
+                    		<h3>Grace Hopper<br />(1906¡V1992)</h3>
+                   		 </div>
+               	    	<img src="Images/grace_hopper.jpg" width="406" height="406" alt="Ada Lovelace"/> 
+                         <div class="caption">
+                        	<h5>A United States Navy officer and the first programmer of the Harvard Mark I, known as the "Mother of COBOL". She developed the first ever compiler for an electronic computer, known as A-0.</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4" >
+                	<div class="thumbnail">
+                  		<div class ="caption">
+                    		<h3>Frances Allen<br />(1932¡V)</h3>
+                   		 </div>
+     
+               	    	<img src="Images/frances_allen.jpg" width="406" height="406" alt="Frances Allen"/> 
+                        <div class="caption">
+                        	<h5>The first female IBM Fellow in 1989. In 2006 she became the first female recipient of the ACM's Turing Award.</h5>
+                        </div>
+                    </div>
+                </div>
+			</div>
+            <div class="row">
+            	<div class="col-lg-4" >
+                	<div class="thumbnail">
+                  		<div class ="caption">
+                    		<h3>Barbara Liskov<br />(1939¡V)</h3>
+                   		 </div>
+               	    	<img src="Images/barbara_liskov.png" width="406" height="406" alt="Barbara Liskov"/> 
+                          <div class="caption">
+                        	<h5>Developed the Liskov substitution principle. Liskov was also the winner of the Turing Prize in 2008.</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4" >
+                	<div class="thumbnail">
+                  		<div class ="caption">
+                    		<h3>Anita Borg<br />(1949¡V2003)</h3>
+                   		 </div>
+               	    	<img src="Images/anita_borg.jpg" width="406" height="406" alt="Antia Borg"/>
+                         <div class="caption">
+                        	<h5>The founding director of the Institute for Women and Technology (IWT)</h5>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-lg-4" >
+                	<div class="thumbnail">
+                  		<div class ="caption">
+                    		<h3>Maria Klawe<br />(1951¡V)</h3>
+                   		 </div>
+               	    	<img src="Images/maria_klawe.jpg" width="406" height="406" alt="Maria Klawe"/> 
+                        <div class="caption">
+                        	<h5>The first woman to become President of Harvey Mudd College since its founding in 1955 and was ACM president from 2002 until 2004.</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
